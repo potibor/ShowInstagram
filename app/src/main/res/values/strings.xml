@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BaseMvvm</string>
+    <string name="position">position</string>
+    <string name="error_empty_login_fields">Bilgileriniz Kontrol Ediniz.</string>
+    <string name="media">Media:</string>
+    <string name="userIdTitle">User ID:</string>
+    <string name="accountTypeTitle">Account Type:</string>
+    <string name="feed_tab_title">Feed</string>
+    <string name="profile_tab_title">Profile</string>
+
+
+</resources>

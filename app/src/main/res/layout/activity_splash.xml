@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.splash.SplashActivity">
+
+    <data>
+
+        <variable
+            name="viewmodel"
+            type="com.hsnozan.basemvvm.ui.splash.SplashViewModel" />
+
+        <import
+            alias="view"
+            type="android.view.View" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_splash" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

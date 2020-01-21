@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_menu"
+    app:startDestination="@id/navigation_feed">
+
+    <fragment
+        android:id="@+id/navigation_feed"
+        android:name="com.hsnozan.basemvvm.ui.home.feed.FeedFragment"
+        android:label="feed_fragment"
+        tools:layout="@layout/feed_fragment" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.hsnozan.basemvvm.ui.home.profile.ProfileFragment"
+        android:label="profile_fragment"
+        tools:layout="@layout/profile_fragment" />
+</navigation>
